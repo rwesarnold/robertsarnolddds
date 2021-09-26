@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 450px) {
+  #heading {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+  }
+
+  #subheading {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+
+  #paragraph {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #review {
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #author {
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    padding-left: 30px;
+  }
+
+  #date {
+    text-align: left;
+    font-size: 10px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #gitlink {
+    text-align: left;
+    font-size: 10;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  #heading {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    padding: 50px;
+  }
+
+  #subheading {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
+
+  #paragraph {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #review {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px
+  }
+
+  #author {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px
+  }
+
+  #date {
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px
+  }
+
+  #gitlink {
+    text-align: left;
+    color: black;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+}
