@@ -49,11 +49,29 @@
   }
 
   #gitlink {
+    color: white;
     text-align: left;
-    font-size: 10;
-    color: black;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+  }
+
+  .main {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .col-md {
+    text-align: center;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -103,9 +121,28 @@
   }
 
   #gitlink {
+    color: white;
     text-align: left;
-    color: black;
-    padding-left: 50px;
-    padding-bottom: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+  }
+
+  .main {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .col-md {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
